@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novelmhe.com/sitemap.xml

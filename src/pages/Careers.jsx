@@ -15,7 +15,7 @@ const Careers = () => {
       <Helmet>
         <title>Careers - Novel Enterprises</title>
         <meta name="description" content="Join the Novel Enterprises team. Explore career opportunities in material handling." />
-        <link rel="canonical" href="https://www.novelenterprises.com/careers" />
+        <link rel="canonical" href="https://www.novelmhe.com/careers" />
         <meta property="og:title" content="Careers - Novel Enterprises" />
         <meta property="og:description" content="Join the Novel Enterprises team. Explore career opportunities in material handling." />
       </Helmet>
@@ -83,7 +83,7 @@ const Careers = () => {
                   </div>
                   <p style={{color: 'var(--text-muted, #555)', maxWidth: '600px'}}>{job.desc}</p>
                 </div>
-                <a href={`mailto:admin@novelenterprises.in?subject=Job Application for ${job.title}`} style={{padding: '12px 24px', background: 'transparent', border: '2px solid #041f4a', color: '#041f4a', borderRadius: '6px', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px', transition: 'all 0.3s ease'}} onMouseOver={(e) => { e.target.style.background = '#041f4a'; e.target.style.color = '#fff'; }} onMouseOut={(e) => { e.target.style.background = 'transparent'; e.target.style.color = '#041f4a'; }}>
+                <a href={`mailto:admin@novelmhe.com?subject=Job Application for ${job.title}`} style={{padding: '12px 24px', background: 'transparent', border: '2px solid #041f4a', color: '#041f4a', borderRadius: '6px', fontWeight: 'bold', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px', transition: 'all 0.3s ease'}} onMouseOver={(e) => { e.target.style.background = '#041f4a'; e.target.style.color = '#fff'; }} onMouseOut={(e) => { e.target.style.background = 'transparent'; e.target.style.color = '#041f4a'; }}>
                   Apply Now <ArrowRight size={16} />
                 </a>
               </motion.div>
@@ -103,7 +103,7 @@ const Careers = () => {
           <p style={{fontSize: '1.1rem', color: 'var(--text-muted, #666)', maxWidth: '600px', margin: '0 auto 30px'}}>
             We are always open to meeting talented people. Send us your resume anyway and we'll keep it on file.
           </p>
-          <a href="mailto:admin@novelenterprises.in?subject=General Job Application" style={{background: '#ff6b00', color: '#fff', padding: '14px 32px', borderRadius: '8px', fontWeight: 'bold', textDecoration: 'none', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '10px', boxShadow: '0 8px 20px rgba(255,107,0,0.3)'}}>
+          <a href="mailto:admin@novelmhe.com?subject=General Job Application" style={{background: '#ff6b00', color: '#fff', padding: '14px 32px', borderRadius: '8px', fontWeight: 'bold', textDecoration: 'none', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center', gap: '10px', boxShadow: '0 8px 20px rgba(255,107,0,0.3)'}}>
             Drop Your Resume
           </a>
         </motion.div>

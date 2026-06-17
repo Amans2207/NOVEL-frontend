@@ -1,9 +1,9 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, schema, keywords, ogImage, url }) => {
-  const siteUrl = "https://novelenterprises.in"; // Fallback URL
+  const siteUrl = "https://novelmhe.com"; // Fallback URL
   const currentUrl = url ? `${siteUrl}${url}` : siteUrl;
-  const image = ogImage || "https://novelenterprises.in/og-image.jpg"; // Default generic OG Image
+  const image = ogImage || "https://novelmhe.com/og-image.jpg"; // Default generic OG Image
 
   return (
     <Helmet>
